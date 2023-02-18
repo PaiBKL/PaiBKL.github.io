@@ -1,0 +1,202 @@
+body{
+	font: 16px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	background-image: url(img/BG.webp);
+	color: #333;
+}
+
+body h1 {
+	font-family: Copperplate Gothic Light;
+}
+
+.container{
+	width: 800px;
+	margin: auto;
+	background-color: #fff;
+	border-radius: 10px;
+	transition: all .42s;
+}
+
+.header{
+	padding: 20px;
+	padding-bottom: 2px;
+}
+
+.header .judul{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: auto;
+	margin-right: 10px;
+	padding-bottom: 5px;
+}
+
+.header a{
+	text-decoration: none;
+	color: rgb(15, 156, 238);
+	padding: 3px;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.hero {
+	height: 300px;
+	background-image: url(img/Pantai.jfif);
+	background-size: cover;
+	background-position: 30 -10;
+	border-top: 5px solid lightskyblue;
+	border-bottom: 5px solid salmon;
+}
+
+.content {
+	padding: 30px;
+}
+
+.content h2 {
+	font-family: Rockwell;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.content h4 {
+	font-family: Rockwell;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.content .penulis {
+	font-family: Courier New;
+	font-size: 13px;
+	margin-top: -5px;
+}
+
+.content .penulis a {
+	color: rgb(70, 13, 226);
+	text-decoration: none;
+}
+
+.content .penulis {
+	font-family: Courier New;
+	font-size: 13px;
+	margin-top: -5px;
+}
+
+.content .penulis a {
+	color: rgb(70, 13, 226);
+	text-decoration: none;
+}
+
+.content p {
+	text-align: justify;
+	text-indent: 30px;
+	font-family: Times New Roman;
+	margin-bottom: 20px;
+	font-size: 17px;
+}
+
+.content h5 {
+	font-family: Times New Roman;
+	margin-bottom: 20px;
+	font-size: 17px;
+}
+
+.iframe {
+	width: 80%;
+	height: 500px;
+	filter: invert(100%);
+	position: center;
+}
+
+/*contact section */
+.contact-info{
+	display: grid;
+	background: linear-gradient(#E6E2DD, #f2e2dc);
+	grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+	gap: 2rem;
+	align-items: center;
+	border-radius: 10px;
+	transition: all .42s;
+	padding: 20px;
+}
+.first-info img{
+	max-width: 100%;
+	width: 150px;
+	height: auto;
+}
+.first-info h6{
+	font-family: Copperplate Gothic Light;  
+	color: #080809;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 500;
+	margin-top: 1px;
+	cursor: pointer;
+	transition: all .42s;
+}
+.first-info h6:hover{
+	color: #D46951;
+}
+.contact-info h4{
+	font-size: 18px;
+	color: #080809;
+	font-weight: 700;
+	text-transform: capitalize;
+	margin-bottom: 5px;
+}
+.contact-info p{
+	color: #080809;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: capitalize;
+	cursor: pointer;
+	margin-bottom: 6px;
+	transition: all .42s;
+}
+.contact-info p:hover{
+	color: #D46951;
+}
+.fifth-info .icon a{
+	color: #000;
+	font-size: 20px;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: #fff;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 4px 15px rgb(0 0 0 / 10%);
+	margin-right: 15px;
+	margin-bottom: 15px;
+	transition: all .42s;
+}
+.fifth-info .icon .grad-icon{
+	background: linear-gradient(#ef32d9, #89fffd);
+	color: #fff;
+}
+.fifth-info .icon a:hover{
+	transform: scale(1.1);
+}
+.fifth-info .icon a:hover{
+	transform: scale(1.1);
+}
+.end-text{
+	text-align: center;
+	padding: 20px;
+	background: linear-gradient(#E6E2DD, #373A36) ;
+	border-radius: 10px;
+	transition: all .42s;
+}
+.footer p{
+	color: #1D2228;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
